@@ -72,7 +72,7 @@ void gameInit() {
 }
 void setStone(int stoneColor) {
 	COORD Cursor = { 0,0 };
-	gotoxy(Cursor.Y, Cursor.X);
+	gotoxy(Cursor.X, Cursor.Y);
 	while (1) {
 		char Key = _getch();
 		if (Key == 75) { //аб
